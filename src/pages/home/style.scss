@@ -1,0 +1,8 @@
+@import '@/assets/scss/_main';
+
+.row{
+    padding-right: calc(var(--bs-gutter-x)*  -0.5);
+}
+.row[data-v-400e6012]{
+    --bs-gutter-x: -5rem;
+}

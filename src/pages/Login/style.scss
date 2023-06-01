@@ -1,0 +1,49 @@
+@import '@/assets/scss/_main';
+
+.login{
+    background-color: $fundo;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+
+.content-login{
+
+    width: 470px;
+    height: 460px;
+    background-color: $cor_de_fundo;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+
+    
+.form{
+    margin-left:20px;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    h1{
+        font-size: 40px;
+        //color:$text;
+        background-image: linear-gradient(133deg, rgba(6,123,216,1) 0%, rgba(12,205,178,1) 50%, rgba(99,95,240,1) 96%);
+        color: black;
+        background-clip: text;
+        -webkit-background-clip: text;
+      
+        /* Adicionado: */
+        -webkit-text-fill-color: transparent;
+        font-weight: 600;
+    }
+
+}
+}
+
+
+}
